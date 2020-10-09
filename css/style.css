@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* header con logo */
+.logo-header {
+  border-radius: 10%;
+}
+/* /header con logo */
+
+/* form categoria e paese */
+form {
+  padding: 10px;
+}
+/* /form categoria e paese */
+
+
+/* shop */
+section {
+  padding: 5px;
+}
+
+/* immagine con sconto */
+.prodotto {
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+}
+.prodotto > .sconto{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.verde {
+  background-color: green;
+}
+
+.rosso {
+  background-color: red;
+}
+/* /immagine con sconto */
+/* /shop*/
+
+
+/* cuoricino preferiti */
+.prodotto:hover .heart {
+  display: block;
+}
+.heart {
+  width: 100%;
+  font-size: 50px;
+  color: red;
+  bottom: 0;
+  display: none;
+  position: absolute;
+}
+/* /cuoricino preferiti */
+
+/* copyright */
+p {
+  padding: 10px;
+  font-size: 10px;
+}
+/*/ copyright */
